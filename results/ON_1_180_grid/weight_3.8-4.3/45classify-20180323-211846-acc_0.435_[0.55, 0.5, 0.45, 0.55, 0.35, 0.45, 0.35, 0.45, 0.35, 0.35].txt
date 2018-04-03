@@ -1,0 +1,188 @@
+Mean Accuracy:                 0.435
+Accuracies:                    [0.55, 0.5, 0.45, 0.55, 0.35, 0.45, 0.35, 0.45, 0.35, 0.35]
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    1 :  0.114831932103
+Separation Final Weights:      1 :  98.7426599875
+Separation Spike Count:        1 :  146.89920323
+_________________________________________________
+Expansion Initial Weights:     1 :  0.735534775087
+Expansion Final Weights:       1 :  28.947697908
+Expansion Spike Count:         1 :  43.0813089182
+_________________________________________________
+Final Metric Initial Weights:  1 :  0.156120330395
+Final Metric Final Weights:    1 :  3.41107124654
+Final Metric Spike Count:      1 :  3.4098129077
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    2 :  0.0495433593947
+Separation Final Weights:      2 :  103.193478095
+Separation Spike Count:        2 :  145.808079748
+_________________________________________________
+Expansion Initial Weights:     2 :  0.474656800168
+Expansion Final Weights:       2 :  27.5792649012
+Expansion Spike Count:         2 :  44.5328335199
+_________________________________________________
+Final Metric Initial Weights:  2 :  0.104377224507
+Final Metric Final Weights:    2 :  3.74170517105
+Final Metric Spike Count:      2 :  3.27417027444
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    3 :  0.0676813517228
+Separation Final Weights:      3 :  97.4738751577
+Separation Spike Count:        3 :  128.977743805
+_________________________________________________
+Expansion Initial Weights:     3 :  0.641028877006
+Expansion Final Weights:       3 :  25.5819300858
+Expansion Spike Count:         3 :  40.6255284604
+_________________________________________________
+Final Metric Initial Weights:  3 :  0.105582375694
+Final Metric Final Weights:    3 :  3.81026274526
+Final Metric Spike Count:      3 :  3.17479547202
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    4 :  0.104669032255
+Separation Final Weights:      4 :  98.7902029509
+Separation Spike Count:        4 :  146.049561817
+_________________________________________________
+Expansion Initial Weights:     4 :  0.749381289847
+Expansion Final Weights:       4 :  25.304444147
+Expansion Spike Count:         4 :  41.8410252528
+_________________________________________________
+Final Metric Initial Weights:  4 :  0.139673933248
+Final Metric Final Weights:    4 :  3.90406532453
+Final Metric Spike Count:      4 :  3.49058276977
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    5 :  0.0758029503959
+Separation Final Weights:      5 :  96.3944809974
+Separation Spike Count:        5 :  136.767939409
+_________________________________________________
+Expansion Initial Weights:     5 :  0.681820547244
+Expansion Final Weights:       5 :  24.5705549241
+Expansion Spike Count:         5 :  41.4741941356
+_________________________________________________
+Final Metric Initial Weights:  5 :  0.111177274874
+Final Metric Final Weights:    5 :  3.92317069334
+Final Metric Spike Count:      5 :  3.29766357753
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    6 :  0.047369513994
+Separation Final Weights:      6 :  96.1519366304
+Separation Spike Count:        6 :  135.398762716
+_________________________________________________
+Expansion Initial Weights:     6 :  0.523297841332
+Expansion Final Weights:       6 :  27.4796315121
+Expansion Spike Count:         6 :  41.1290722254
+_________________________________________________
+Final Metric Initial Weights:  6 :  0.0905211339559
+Final Metric Final Weights:    6 :  3.49902569064
+Final Metric Spike Count:      6 :  3.29204514932
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    7 :  0.0853607765934
+Separation Final Weights:      7 :  98.6049874387
+Separation Spike Count:        7 :  141.153173075
+_________________________________________________
+Expansion Initial Weights:     7 :  0.711996513474
+Expansion Final Weights:       7 :  27.2998323736
+Expansion Spike Count:         7 :  42.9426829969
+_________________________________________________
+Final Metric Initial Weights:  7 :  0.119889318245
+Final Metric Final Weights:    7 :  3.61192647959
+Final Metric Spike Count:      7 :  3.28701336814
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    8 :  0.0786750437284
+Separation Final Weights:      8 :  100.293743311
+Separation Spike Count:        8 :  141.734760442
+_________________________________________________
+Expansion Initial Weights:     8 :  0.677752977002
+Expansion Final Weights:       8 :  24.6350480776
+Expansion Spike Count:         8 :  42.253119232
+_________________________________________________
+Final Metric Initial Weights:  8 :  0.116082180969
+Final Metric Final Weights:    8 :  4.07118114789
+Final Metric Spike Count:      8 :  3.35442123607
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    9 :  0.0720656920115
+Separation Final Weights:      9 :  94.9494009401
+Separation Spike Count:        9 :  134.335781306
+_________________________________________________
+Expansion Initial Weights:     9 :  0.694464407299
+Expansion Final Weights:       9 :  21.34857048
+Expansion Spike Count:         9 :  38.7228888245
+_________________________________________________
+Final Metric Initial Weights:  9 :  0.103771613425
+Final Metric Final Weights:    9 :  4.44757652644
+Final Metric Spike Count:      9 :  3.46915701239
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    10 :  0.106081846806
+Separation Final Weights:      10 :  94.7920155618
+Separation Spike Count:        10 :  143.474720646
+_________________________________________________
+Expansion Initial Weights:     10 :  0.866274566742
+Expansion Final Weights:       10 :  23.3796664632
+Expansion Spike Count:         10 :  40.4508919339
+_________________________________________________
+Final Metric Initial Weights:  10 :  0.122457533534
+Final Metric Final Weights:    10 :  4.05446398095
+Final Metric Spike Count:      10 :  3.54688645384
+_________________________________________________
+_________________________________________________
+NeuCube parameters:           
+input_electrodes:              ['C3', 'Cz', 'C4']
+number_of_training_samples     80
+number_of_classes              2
+signal_duration                1000
+signal_timestep                4
+_________________________________________________
+Encoding parameters:          
+encoding_method                BSA
+save_data                      False
+plot_data                      False
+_________________________________________________
+Reservoir structure parameters:
+new_reservoir                  True
+plot_stability                 False
+inhibitory_split               0.3
+connection_probability         0.13
+small_world_conn_factor        0.5
+max_syn_len                    0.4
+w_dist_ex_mean                 4.0
+w_dist_inh_mean                9.33333333333
+save_structure                 False
+_________________________________________________
+Simulation parameters:        
+number_of_neurons_per_core     30
+simulation_timestep            1
+simulation_time                1000
+save_training_result           False
+plot_spikes                    False
+plot_voltage                   False
+_________________________________________________
+STDP parameters:              
+use_STDP                       False
+tau_plus                       10.0
+tau_minus                      10.0
+A_plus                         0.02
+A_minus                        0.02
+w_min                          0.0
+w_max                          0.25
+_________________________________________________
+deSNNs parameters:            
+load_reservoir_spikes          False
+save_reservoir_spikes          False
+save_neurons                   False
+k_neighbors                    1
+alpha                          1
+mod                            0.7
+drift_up                       0.01
+drift_down                     0.01
+feature                        final_weights
+_________________________________________________
+Test parameters:              
+first_test_sample_index        81
+number_of_test_samples         20

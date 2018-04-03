@@ -1,0 +1,124 @@
+Mean Accuracy:                 0.36
+Variance:                      0.0014
+Accuracies:                    [0.4, 0.35, 0.35, 0.4, 0.3]
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    1 :  0.0632036035119
+Separation Final Weights:      1 :  102.077843997
+Separation Spike Count:        1 :  137.531124736
+_________________________________________________
+Expansion Initial Weights:     1 :  0.66284793586
+Expansion Final Weights:       1 :  26.4374660539
+Expansion Spike Count:         1 :  38.5879272315
+_________________________________________________
+Final Metric Initial Weights:  1 :  -1.26249226821
+Final Metric Final Weights:    1 :  49.2029118895
+Final Metric Spike Count:      1 :  60.3552702735
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    2 :  0.0807631504337
+Separation Final Weights:      2 :  106.600697505
+Separation Spike Count:        2 :  141.245110845
+_________________________________________________
+Expansion Initial Weights:     2 :  0.586242521638
+Expansion Final Weights:       2 :  30.2043958976
+Expansion Spike Count:         2 :  42.0935154551
+_________________________________________________
+Final Metric Initial Weights:  2 :  -1.09172189284
+Final Metric Final Weights:    2 :  46.19190571
+Final Metric Spike Count:      2 :  57.0580799346
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    3 :  0.0695507465505
+Separation Final Weights:      3 :  99.1222712282
+Separation Spike Count:        3 :  127.376158575
+_________________________________________________
+Expansion Initial Weights:     3 :  0.666934545243
+Expansion Final Weights:       3 :  26.5014342993
+Expansion Spike Count:         3 :  36.2460415825
+_________________________________________________
+Final Metric Initial Weights:  3 :  -1.26431834393
+Final Metric Final Weights:    3 :  46.1194026296
+Final Metric Spike Count:      3 :  54.8840754097
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    4 :  0.0908047243491
+Separation Final Weights:      4 :  101.682308707
+Separation Spike Count:        4 :  149.886804221
+_________________________________________________
+Expansion Initial Weights:     4 :  0.710751843124
+Expansion Final Weights:       4 :  28.4952054718
+Expansion Spike Count:         4 :  41.6026572266
+_________________________________________________
+Final Metric Initial Weights:  4 :  -1.3306989619
+Final Metric Final Weights:    4 :  44.6918977633
+Final Metric Spike Count:      4 :  66.6814897675
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    5 :  0.0747145699854
+Separation Final Weights:      5 :  95.3957301695
+Separation Spike Count:        5 :  119.38600272
+_________________________________________________
+Expansion Initial Weights:     5 :  0.611355667318
+Expansion Final Weights:       5 :  26.8705808116
+Expansion Spike Count:         5 :  35.5552833489
+_________________________________________________
+Final Metric Initial Weights:  5 :  -1.14799676465
+Final Metric Final Weights:    5 :  41.6545685462
+Final Metric Spike Count:      5 :  48.2754360222
+_________________________________________________
+_________________________________________________
+NeuCube parameters:           
+input_electrodes:              ['C3', 'Cz', 'C4']
+number_of_training_samples     60
+number_of_classes              2
+signal_duration                1000
+signal_timestep                4
+_________________________________________________
+Encoding parameters:          
+encoding_method                BSA
+save_data                      False
+plot_data                      False
+_________________________________________________
+Reservoir structure parameters:
+new_reservoir                  True
+plot_stability                 False
+inhibitory_split               0.2
+connection_probability         0.13
+small_world_conn_factor        0.5
+max_syn_len                    0.4
+w_dist_ex_mean                 3.85
+w_dist_inh_mean                15.4
+save_structure                 False
+_________________________________________________
+Simulation parameters:        
+number_of_neurons_per_core     30
+simulation_timestep            1
+simulation_time                1000
+save_training_result           False
+plot_spikes                    False
+plot_voltage                   False
+_________________________________________________
+STDP parameters:              
+use_STDP                       False
+tau_plus                       5.0
+tau_minus                      5.0
+A_plus                         0.01
+A_minus                        0.03
+w_min                          0.0
+w_max                          0.25
+_________________________________________________
+deSNNs parameters:            
+load_reservoir_spikes          False
+save_reservoir_spikes          False
+save_neurons                   False
+k_neighbors                    1
+alpha                          1
+mod                            0.9
+drift_up                       0.01
+drift_down                     0.01
+feature                        final_weights
+_________________________________________________
+Test parameters:              
+first_test_sample_index        81
+number_of_test_samples         20

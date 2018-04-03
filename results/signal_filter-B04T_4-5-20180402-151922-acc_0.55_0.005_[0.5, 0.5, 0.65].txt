@@ -1,0 +1,98 @@
+Mean Accuracy:                 0.55
+Variance:                      0.005
+Accuracies:                    [0.5, 0.5, 0.65]
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    1 :  9.86354476232e-11
+Separation Final Weights:      1 :  162.231859587
+Separation Spike Count:        1 :  238.03238589
+_________________________________________________
+Expansion Initial Weights:     1 :  1.2244052777
+Expansion Final Weights:       1 :  31.0724018644
+Expansion Spike Count:         1 :  25.9654457219
+_________________________________________________
+Final Metric Initial Weights:  1 :  -2.4488105553
+Final Metric Final Weights:    1 :  100.087055859
+Final Metric Spike Count:      1 :  186.101494446
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    2 :  7.06391792144e-12
+Separation Final Weights:      2 :  162.227283002
+Separation Spike Count:        2 :  234.974291242
+_________________________________________________
+Expansion Initial Weights:     2 :  1.08137800539
+Expansion Final Weights:       2 :  28.6872909661
+Expansion Spike Count:         2 :  25.3668016907
+_________________________________________________
+Final Metric Initial Weights:  2 :  -2.16275601077
+Final Metric Final Weights:    2 :  104.85270107
+Final Metric Spike Count:      2 :  184.24068786
+_________________________________________________
+_________________________________________________
+Separation Initial Weights:    3 :  3.11445482069e-23
+Separation Final Weights:      3 :  165.339439459
+Separation Spike Count:        3 :  249.583310018
+_________________________________________________
+Expansion Initial Weights:     3 :  1.0243303871
+Expansion Final Weights:       3 :  29.8555142119
+Expansion Spike Count:         3 :  27.3821639912
+_________________________________________________
+Final Metric Initial Weights:  3 :  -2.0486607742
+Final Metric Final Weights:    3 :  105.628411035
+Final Metric Spike Count:      3 :  194.818982036
+_________________________________________________
+_________________________________________________
+NeuCube parameters:           
+input_electrodes:              ['C3', 'Cz', 'C4']
+number_of_training_samples     80
+number_of_classes              2
+signal_duration                1000
+signal_timestep                4
+_________________________________________________
+Encoding parameters:          
+encoding_method                BSA
+save_data                      False
+plot_data                      False
+_________________________________________________
+Reservoir structure parameters:
+new_reservoir                  True
+plot_stability                 False
+inhibitory_split               0.2
+connection_probability         0.25
+small_world_conn_factor        0.5
+max_syn_len                    0.5
+w_dist_ex_mean                 3.0
+w_dist_inh_mean                12.0
+save_structure                 False
+_________________________________________________
+Simulation parameters:        
+number_of_neurons_per_core     30
+simulation_timestep            1
+simulation_time                1000
+save_training_result           False
+plot_spikes                    False
+plot_voltage                   False
+_________________________________________________
+STDP parameters:              
+use_STDP                       False
+tau_plus                       10.0
+tau_minus                      10.0
+A_plus                         0.01
+A_minus                        0.01
+w_min                          0.0
+w_max                          0.1
+_________________________________________________
+Classifier parameters:            
+load_reservoir_spikes          False
+save_reservoir_spikes          False
+save_neurons                   False
+k_neighbors                    1
+alpha                          1
+mod                            0.9
+drift_up                       0.01
+drift_down                     0.01
+feature                        final_weights
+_________________________________________________
+Test parameters:              
+first_test_sample_index        81
+number_of_test_samples         20
